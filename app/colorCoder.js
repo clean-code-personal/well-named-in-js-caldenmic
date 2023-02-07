@@ -1,3 +1,5 @@
+import {MajorColorNames, MinorColorNames, ColorPair, getColorFromPairNumber, getPairNumberFromColor} from './colorCoderFunctions.js';
+
 function test(){
 	pairNumber = 4;
 	let testPair1 = getColorFromPairNumber(pairNumber);
